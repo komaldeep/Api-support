@@ -10,7 +10,7 @@
     "allowed_actions": ["ok", "close_app"]
   },
   "version :2.2": {
-    "status": "suported",
+    "status": "supported",
     "text": "" ,
     "allowed_actions": []
   }
