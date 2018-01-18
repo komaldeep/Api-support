@@ -1,22 +1,17 @@
 {
-[
-  {
-    version :1.0,
-    status: "not_supported",
-    text: "Your App is out of date since July 2017, please follow this link to update your App: http://xxxx" ,
-    allowed_actions: ["close_app"]
-  } ,
-  {
-    version :2.0,
-    status: "deprecated",
-    text: "Your App will be out of date since Februar 2018, please follow this link to update your App: http://xxxx" ,
-    allowed_actions: ["ok", "close_app"]
+  "version :2.0": {
+    "status": "not_supported",
+    "text": "Your App is out of date since July 2017, please follow this link to update your App: http://xxxx" ,
+    "allowed_actions": ["close_app"]
   },
-  {
-    version :2.1
-    status: "suported",
-    text: "" ,
-    allowed_actions: []
+  "version :2.1": {
+    "status": "deprecated",
+    "text": "Your App will be out of date since Februar 2018, please follow this link to update your App: http://xxxx" ,
+    "allowed_actions": ["ok", "close_app"]
+  },
+  "version :2.2": {
+    "status": "supported",
+    "text": "" ,
+    "allowed_actions": []
   }
-]
 }
