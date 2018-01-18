@@ -7,13 +7,13 @@
       "allowed_actions": ["close_app"]
     },
     {
-      "version": "2.1.0",
+      "version": "2.1.1",
       "status": "deprecated",
       "text": "Your App will be out of date since Februar 2018, please follow this link to update your App: http://xxxx" ,
       "allowed_actions": ["ok", "close_app"]
     },
     {
-      "version": "2.1.0",
+      "version": "2.1.2",
       "status": "supported",
       "text": "" ,
       "allowed_actions": []
